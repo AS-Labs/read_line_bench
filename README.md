@@ -39,7 +39,7 @@ The interesting bit here is that Zig still remains slow. This was after all insp
 
 
 
-The below should be a tabel:
+The below should be a table:
 ```bash
 Lang       Time
 C          0m0.585s
