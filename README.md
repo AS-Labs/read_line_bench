@@ -40,6 +40,7 @@ The interesting bit here is that Zig still remains slow. This was after all insp
 
 
 The below should be a tabel:
+```bash
 Lang       Time
 C          0m0.585s
 Rust       0m6.030s
@@ -48,3 +49,4 @@ Zig        0m3.016s
 Cpthreads  0m1.381s
 wc         0m0.191s
 python3    0m3.187s
+```
