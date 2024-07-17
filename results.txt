@@ -1,0 +1,8 @@
+Lang       Time
+C          0m0.585s
+Rust       0m6.030s
+Go         0m2.142s
+Zig        0m3.016s
+Cpthreads  0m1.381s
+wc         0m0.191s
+python3    0m3.187s
