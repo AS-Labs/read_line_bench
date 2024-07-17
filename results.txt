@@ -1,8 +1,9 @@
 Lang       Time
-C          0m0.585s
-Rust       0m6.030s
-Go         0m2.142s
-Zig        0m3.016s
-Cpthreads  0m1.381s
-wc         0m0.191s
-python3    0m3.187s
+C          0m0.600s
+Rust       0m6.095s
+Go         0m2.130s
+Zig        0m3.113s
+Cpthreads  0m1.359s
+wc         0m0.190s
+python3    0m3.188s
+bash       3m20.334s

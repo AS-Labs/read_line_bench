@@ -13,11 +13,11 @@ echo "starting wc" >> ./out
 (time wc -l ./data.txt) >> ./out 2>&1 
 echo "starting python3" >> ./out
 (time python3 ./test-linebyline_py.py) >> ./out 2>&1 
+echo "starting bash" >> ./out
+(time bash ./test-linebyline_BASH.sh) >> ./out 2>&1
 
 echo "Lang,Time" > ./tmpF
 grep -E "start|real" out|awk '{ print $2 }'|paste - -|sed 's/\t/,/g' >> ./tmpF
 column -s, -t < ./tmpF > results.txt
 rm -f ./tmpF
 rm -f ./out
-#echo "bash starting"
-#starting bash ./test-linebyline_BASH.sh
